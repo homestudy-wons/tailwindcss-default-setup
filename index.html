@@ -7,23 +7,34 @@
     <link href="/css/tailwind.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="bg-gray-100">
-    <div class="px-8 py-12 space-y-6">
-        <img class="h-10" src="/static/img/sample_log.svg" alt="sample log" >
-        <img class="rounded-lg shadow-xl" src="/static/img/road-gf5a2dc765_1920.jpg" alt="load image from plxabay"/>
-        <h2 class="mt-6 text-2xl font-bold brand ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            <span class="text-brands" >ullam, necessitatibus dolorum magnam quo voluptates itaque,</span>  
-            ea non ut autem exercitationem nostrum adipisci et iusto quae tenetur explicabo totam excepturi.
-        </h2>
-        <p class=" mt-6 text-gray-600">
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos, laborum harum officia, temporibus quaerat doloribus incidunt mollitia molestias nihil quisquam est veniam, ut obcaecati doloremque quos sunt voluptates beatae! 
-        </p>
-        <div class="mt-4">
-            <a
-              class="inline-block px-5 py-3 rounded-lg transform transition bg-brands hover: bg-brands-light hover:-translate-y-0.5 focus:ring-brands-light focus:ring-opacity-50 focus:outline-none focus:ring focus:ring-offset-2 active:bg-brands-dark uppercase tracking-wider font-semibold text-sm text-white shadow-lg sm:text-base"
-              href="#"
-            > Book your escape</a>
+<body class="bg-gray-300">
+    <div class=" bg-gray-100 grid lg:grid-cols-2 2xl:grid-cols-5">
+        <div class="px-8 py-12 space-y-6 max-w-md mx-auto sm:max-x-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2" >
+            <div class="xl:max-w-xl">
+                <img class="h-10 " src="/static/img/sample_log.svg" alt="sample log" >
+            <img class="rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden" src="/static/img/road-gf5a2dc765_1920.jpg" alt="load image from plxabay"/>
+            <h1 class="mt-6 text-2xl font-bold brand text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl ">
+                You can work form anywhere.
+                <br class=" hidden lg:inline">
+                <span class="text-brands" >Take advantage of it.</span>  
+            </h1>
+            <p class=" mt-6 text-gray-600 sm:mt-4 sm:text-xl">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos, laborum harum officia, temporibus quaerat doloribus incidunt mollitia molestias nihil quisquam est veniam, ut obcaecati doloremque quos sunt voluptates beatae! 
+            </p>
+            <div class="mt-4">
+                <a
+                  class="inline-block px-5 py-3 rounded-lg transform transition bg-brands hover: bg-brands-light hover:-translate-y-0.5 focus:ring-brands-light focus:ring-opacity-50 focus:outline-none focus:ring focus:ring-offset-2 active:bg-brands-dark uppercase tracking-wider font-semibold text-sm text-white shadow-lg sm:text-base"
+                  href="#"
+                > Book your escape</a>
+            </div>
         </div>
     </div>
+    <div class="hidden relative lg:block 2xl:col-span-3" >
+        <img class=" absolute inset-0 w-full h-full object-cover object-center" src="/static/img/road-gf5a2dc765_1920.jpg" alt="new car" />
+    </div>
+            
+            
+    </div>
+    
 </body>
 </html>
